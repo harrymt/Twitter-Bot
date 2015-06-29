@@ -3,6 +3,11 @@
   "description": "Simple nodejs, travis and grunt demo",
   "author": "Harry",
   "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "request": "~2.57.0",
+    "twit": "1.1.20"
+  },
   "scripts": {
     "test": "app.js"
   }
