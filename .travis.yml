@@ -1,4 +1,7 @@
 language: node_js
 node_js:
   - "0.8"
-script: ./app.js
+script: app.js
+cache:
+    directories:
+        - node_modules
