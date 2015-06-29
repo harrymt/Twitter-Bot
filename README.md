@@ -1,5 +1,9 @@
 # Twitter Bot
 
+## TODO
+
+- Put on Heroku server
+
 - First check to see what subreddits aren't around on twitter!
 - Maybe mensfashion? relationship advice? Parse top links?
 
