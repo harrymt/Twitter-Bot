@@ -1,7 +1,7 @@
 # Twitter Bot
 
-. First check to see what subreddits aren't around on twitter!
-. Maybe mensfashion? relationship advice? Parse top links?
+- First check to see what subreddits aren't around on twitter!
+- Maybe mensfashion? relationship advice? Parse top links?
 
 ## Links
 - http://videlais.com/2014/12/16/creating-a-basic-twitter-bot-in-node-js/
@@ -15,15 +15,17 @@
 
 ## Project flow
 
-  . Runs on a server
-  . Polls a subreddit every minute
-  .   Iterate through posts sorted by top voted / day
-  .   Take the first one.
-  .   If it has over 500 upvotes
-  .     Andalso if we haven't tweeted it before
-  .   Then
-  .     Scrape the caption and download the image.
-  .     Save the PostURL
-  .     Tweet the photo and the caption
-  .   End If
-  . Sleep
+```
+- Runs on a server
+- Polls a subreddit every minute
+-   Iterate through posts sorted by top voted / day
+-   Take the first one.
+-   If it has over 500 upvotes
+-     Andalso if we haven't tweeted it before
+-   Then
+-     Scrape the caption and download the image.
+-     Save the PostURL
+-     Tweet the photo and the caption
+-   End If
+- Sleep
+```
