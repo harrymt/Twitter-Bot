@@ -1,0 +1,9 @@
+{
+  "name": "Twitter-Bot",
+  "description": "Simple nodejs, travis and grunt demo",
+  "author": "Harry",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "app.js"
+  }
+}
