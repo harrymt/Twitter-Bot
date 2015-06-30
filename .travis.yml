@@ -3,4 +3,4 @@ node_js:
   - "0.8"
 install:
   - "npm install -g npm@latest"
-script: "make test"
+script: make test
