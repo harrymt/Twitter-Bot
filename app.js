@@ -6,14 +6,19 @@ var Tweeter = require("./autotweet.js");
 //
 // Start
 //
-var http = require('http');
+var express = require('express');
+var app = express();
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end(message + '\n');
-}).listen();
-// Debug, exit process
-process.exit();
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
+var server = app.listen(3000, function () {
+  var host = server.address().address;
+  var port = server.address().port;
+  console.log('Example app listening at http://%s:%s', host, port);
+});
+
   
 // Start loop...Kill process with enter
 process.stdin.setEncoding("utf8");
