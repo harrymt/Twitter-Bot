@@ -9,5 +9,4 @@ script:
 deploy:
   provider: heroku
   api_key: $ENV_HEROKU_API_KEY
-  on:
-    repo: "travis-ci/harrymt-twitterbot"
+  app: "travis-ci/harrymt-twitterbot"
