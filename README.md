@@ -5,9 +5,7 @@
 
 ## TODO
 
-- Create a secure [heroku API key](http://docs.travis-ci.com/user/encryption-keys/)
-- Paste the key into deploy: section in .travis.yml
-- Delete the Travis CI env HEROKU_API_KEY
+- Log all node actions to the [website](https://harrymt-twitterbot.herokuapp.com/) 
 
 - First check to see what subreddits aren't around on twitter!
 - Maybe mensfashion? relationship advice? Parse top links?
