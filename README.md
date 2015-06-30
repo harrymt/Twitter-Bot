@@ -5,7 +5,8 @@
 
 ## TODO
 
-- Put on Heroku server
+- Generate new api keys
+- Push to Heroku server
 
 - First check to see what subreddits aren't around on twitter!
 - Maybe mensfashion? relationship advice? Parse top links?
