@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/harrymt/Twitter-Bot.svg?branch=master)](http://travis-ci.org/mochajs/mocha)
+
+
 # Twitter Bot
 
 ## TODO
