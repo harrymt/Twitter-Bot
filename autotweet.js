@@ -7,10 +7,10 @@ var downloader = require("./downloader.js");
 
 // Get the values from Travis CI encrypted environment variables
 var keys = {
-  "consumer_secret": process.env.keys-consumer_secret,
-  "consumer_key": process.env.keys-consumer_key,
-  "access_token": process.env.keys-access_token,
-  "access_token_secret": process.env.keys-access_token_secret
+  "consumer_secret": process.env.keys_consumer_secret,
+  "consumer_key": process.env.keys_consumer_key,
+  "access_token": process.env.keys_access_token,
+  "access_token_secret": process.env.keys_access_token_secret
 };
 
 var usedTweets = [];
