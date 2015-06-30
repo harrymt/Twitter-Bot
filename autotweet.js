@@ -5,11 +5,12 @@ var Twit = require("twit");
 var logger = require("./logger.js");
 var downloader = require("./downloader.js");
 
+// Get the values from Travis CI encrypted environment variables
 var keys = {
-  "consumer_secret": "tA1Tsq7NlksbFWGulOKSb4j2opNL7nigSf8WmPbwROuubhKHRJ",
-  "consumer_key": "xgNTCN1HCMLyCfXEqopClhc94",
-  "access_token": "3318777814-41yK93kxiGkIbgPT9HXlKrlfSS4VAFhXlgGoDVe",
-  "access_token_secret": "46BCUM0y64xOxpA6WHMo697rL0ZBAUjaBi416BpMcgnsh"
+  "consumer_secret": process.env.keys-consumer_secret,
+  "consumer_key": process.env.keys-consumer_key,
+  "access_token": process.env.keys-access_token,
+  "access_token_secret": process.env.keys-access_token_secret
 };
 
 var usedTweets = [];
