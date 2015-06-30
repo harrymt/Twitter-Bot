@@ -8,4 +8,4 @@ script:
   - make test
 deploy:
   provider: heroku
-  api_key: <% ENV_HEROKU_API_KEY %>
+  api_key: <%= ENV['ENV_HEROKU_API_KEY'] %>
