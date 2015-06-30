@@ -6,7 +6,15 @@ var Tweeter = require("./autotweet.js");
 //
 // Start
 //
+var http = require('http');
 
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end(message + '\n');
+}).listen();
+// Debug, exit process
+process.exit();
+  
 // Start loop...Kill process with enter
 process.stdin.setEncoding("utf8");
 process.stdin.on("data", function () {
