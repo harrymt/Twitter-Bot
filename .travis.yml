@@ -1,6 +1,8 @@
 language: node_js
 node_js:
-  - "0.8"
+  - "0.10"
 install:
-  - "npm install -g npm@latest"
-script: make test
+  - npm install
+  - npm install -g npm@latest
+script:
+  - make test
